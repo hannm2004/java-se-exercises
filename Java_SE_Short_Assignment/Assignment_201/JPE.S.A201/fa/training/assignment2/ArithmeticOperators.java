@@ -1,6 +1,8 @@
+package fa.training.assignment2;
+
 import java.util.Scanner;
 
-public class LogicalOperators {
+public class ArithmeticOperators {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
@@ -12,11 +14,10 @@ public class LogicalOperators {
     int num3 = sc.nextInt();
     System.out.print("Input fourth number: ");
     int num4 = sc.nextInt();
-    if (num1 == num2 && num1 == num3 && num1 == num4) {
-      System.out.println("Numbers are equal!");
-    } else {
-      System.out.println("Numbers are not equal!");
-    }
+    System.out.print("Input fifth number: ");
+    int num5 = sc.nextInt();
+    int sum = num1 + num2 + num3 + num4 + num5;
+    System.out.println("The sum is: " + sum);
     sc.close();
   }
 }

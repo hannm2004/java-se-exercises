@@ -1,3 +1,5 @@
+package fa.training.assignment2;
+
 import java.util.Scanner;
 
 public class CylinderComputation {

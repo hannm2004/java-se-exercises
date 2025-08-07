@@ -1,3 +1,5 @@
+package fa.training.assignment2;
+
 public class DataTypeAndOperators {
 
   public static void main(String[] args) {
